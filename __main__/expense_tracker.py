@@ -7,10 +7,10 @@ def main():
     #this is the input (expenses)
     get_user_expenses()
 
-    # Write the expenses file
+    # Write the expense file
     save_expenses_to_file()
 
-    # Read file and summarize expenses
+    # Read the file and summarize expenses
     summarize_expenses()
 
 def get_user_expenses():
